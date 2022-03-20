@@ -8,3 +8,9 @@ export const Decrement = () => {
     type: "DECREMENT",
   };
 };
+export const AddTodo = (item) => {
+  return {
+    type: "ADD",
+    payload: item,
+  };
+};
